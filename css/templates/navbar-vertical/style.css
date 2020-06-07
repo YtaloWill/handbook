@@ -1,0 +1,27 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul a {
+    width: 200px;
+    height: 40px;
+    display: block;
+    color: #000;
+    text-decoration: none;
+    text-indent: 40px;
+    line-height: 40px; /* Altura da linha do bloco de texto, por padrão ele tem o tamanho da fonte */
+    background: #f7b600 url(menu.png) no-repeat left bottom;
+}
+
+ul a:hover, 
+#home #navbar .home a,
+#about #navbar .about a,
+#services #navbar .services a,
+#news #navbar .news a,
+#contact #navbar .contact a {
+    background-position: right bottom;
+    background-color: #f99200;
+    color: #fff;
+}
