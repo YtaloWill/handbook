@@ -1,0 +1,58 @@
+/* NOTA DO EDITOR: 
+    a soma dos width dos elementos 
+    dentro do container somadas dão o tamanho do container 
+
+    todos os tamanhos são determinados por pixel, assim ficando fixos
+*/
+
+body {
+    background-color: #f2f2f2;
+}
+
+#container {
+    width: 720px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+#brand {
+    height: 100px;
+    background-color: #9e9e9e;
+    text-align: center;
+    line-height: 100px;
+}
+
+#content {
+    width: 520px;
+    float: right;
+}
+
+#content-main {
+    width: 340px;
+    float: left;
+}
+
+#content-aside {
+    width: 180px;
+    float: right;
+    background-color: #d1d1d1;
+}
+
+#content-aside h2,
+#content-aside p {
+    padding: 0 20px;
+}
+
+#navbar {
+    width: 180px;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #d1d1d1;
+}
+
+#footer {
+    clear: both;
+    background-color: #c4c4c4;
+    padding: 5px;
+}
