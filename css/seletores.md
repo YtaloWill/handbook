@@ -185,7 +185,7 @@ Tags afetadas pelo código acima:
 
 ``` h1~p ```
 
-Seleciona todos os próximos elementos:
+Seleciona todos os próximos elementos (não considera elementos filhos):
 
 ```css
 div+p {
@@ -200,4 +200,25 @@ Tags afetadas pelo código acima:
 <div>Aqui não funciona</div>
 <p>O estilo vai funcionar aqui</p>
 <p>O estilo vai funcionar aqui também</p>
+```
+
+## Por atributo
+
+``` [type="text"] ```
+
+**DISCLAIMER: Pode não ter suporte para navegadores mais antigos, para maior compatibilidade use class's ou id's**
+
+Seleciona todos os elementos que possuem um determinado atributo com um determindado valor:
+
+```css
+input[type="text"] {
+    color: #000;
+}
+```
+
+Tags afetadas pelo código acima:
+
+```html
+<input type="text"> <!-- Aqui vai funcionar -->
+<input type="radio"> <!-- Aqui NÃO vai funcionar -->
 ```

@@ -1,0 +1,33 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+fieldset {
+    margin: 1em 0;
+    padding: 1em;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    cursor: pointer; /* Muda o simbolo do mouse quando o mouse está sobre o elemento */
+}
+
+input {
+    width: 20em;
+}
+
+input.radio {
+    width: auto;
+    
+}
+
+textarea {
+    width: 20em;
+    height: 10em;
+}
