@@ -7,3 +7,5 @@ Caso o protocolo não seja especificado, por padrão o navegador usa o protocolo
 - `Strict-Transport-Security: max-age=3156000`
 
 Ele é usado para dizer ao navegador que ele deve usar uma conexão HTTPS, que é mais segura. O parâmetro max-age diz por quanto tempo ele deve usar esse protocolo até que o expire.
+
+__Um conteúdo mais aprofundado sobre isso pode ser lido na__ [RFC6797](https://tools.ietf.org/html/rfc6797)
